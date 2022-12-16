@@ -35,8 +35,8 @@ const UserTopbar = ({ click }) => {
           >
             <AiOutlineMenu />
           </div>
-          <main className="flex items-center justify-between pr-7 ">
-            <div className="flex gap-4  items-center">
+          <main className="flex items-center justify-between">
+            <div className="flex gap-4  items-center pr-7">
               <div className="flex flex-col items-end ">
                 <p className="bg-[#FF5630] h-4 w-4  text-center relative top-2 left-1  text-[10px] rounded-full text-white">
                   8
@@ -54,7 +54,12 @@ const UserTopbar = ({ click }) => {
         </div>
       </div>
       {/* <hr className="w-[83.5%] absolute top-24" /> */}
-      <Box position="absolute" w={[500, 500, 1280]} top="6rem" d>
+      <Box
+        position="absolute"
+        w={[500, 500, 1280]}
+        top="6rem"
+        display={["none", "block", "block"]}
+      >
         <hr />
       </Box>
       <Box
