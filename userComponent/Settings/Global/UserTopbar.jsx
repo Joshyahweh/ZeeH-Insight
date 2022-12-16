@@ -54,10 +54,23 @@ const UserTopbar = ({ click }) => {
         </div>
       </div>
       {/* <hr className="w-[83.5%] absolute top-24" /> */}
-      {/* <Box position="absolute" w={[580, 500, 1280]} top="12rem">
+      <Box position="absolute" w={[500, 500, 1280]} top="6rem" d>
         <hr />
       </Box>
-      <Box position="absolute" w={[580, 500, 1280]} top="5rem">
+      <Box
+        position="absolute"
+        w={[500, 500, 1280]}
+        top="12rem"
+        display={["none", "block", "block"]}
+      >
+        <hr />
+      </Box>
+      {/* <Box
+        position="absolute"
+        w={[580, 500, 1280]}
+        top="5rem"
+        d
+      >
         <hr />
       </Box> */}
     </div>
