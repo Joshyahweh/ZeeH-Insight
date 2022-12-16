@@ -28,15 +28,15 @@ const UserTopbar = ({ click }) => {
             />
           </label>
         </main>
-        <div className="flex items-center justify-between">
+        <div className="flex items-center m-10 justify-between">
           <div
-            className="md:hidden m-10 cursor-pointer"
+            className="md:hidden  cursor-pointer"
             onClick={() => toggleSidebar(click)}
           >
             <AiOutlineMenu />
           </div>
           <main className="flex items-center justify-between">
-            <div className="flex gap-4  items-center pr-7">
+            <div className="flex gap-4  items-center ">
               <div className="flex flex-col items-end ">
                 <p className="bg-[#FF5630] h-4 w-4  text-center relative top-2 left-1  text-[10px] rounded-full text-white">
                   8

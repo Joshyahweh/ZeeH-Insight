@@ -1,3 +1,4 @@
+import { Box } from "@chakra-ui/react";
 import Image from "next/image";
 import React, { useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
@@ -53,7 +54,14 @@ const Topbar = ({ click }) => {
           </main>
         </div>
       </div>
-      <hr className="w-[83.5%] absolute left-50 top-24" />
+      <Box
+        position="absolute"
+        w={[500, 500, 1280]}
+        top="6rem"
+        display={["none", "block", "block"]}
+      >
+        <hr />
+      </Box>
     </div>
   );
 };
